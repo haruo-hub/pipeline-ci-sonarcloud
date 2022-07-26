@@ -1,0 +1,24 @@
+{
+  "name": "ci-sonarcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haruo-hub/ci-sonarcloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haruo-hub/ci-sonarcloud/issues"
+  },
+  "homepage": "https://github.com/haruo-hub/ci-sonarcloud#readme",
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "sonar-scanner": "^3.1.0"
+  }
+}
